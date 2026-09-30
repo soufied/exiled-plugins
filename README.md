@@ -2,10 +2,11 @@
 
 A monorepo of custom [EXILED](https://github.com/ExMod-Team/EXILED) plugins for **SCP: Secret Laboratory** dedicated servers. The collection covers moderation/admin-abuse prevention, round-flow automation, custom doors/keycards, custom roles, and several standalone gameplay tweaks. The vast majority of plugins in this repo are originally authored by `soufi`. Three plugins are forks maintained by `soufi` of other developers' original standalone plugins (see below); all others — including every plugin in the Custom Roles Standalone and Custom Roles Module System sections — are original `soufi` works.
 
-Plugin	Fork of / Original Author
-CustomDoorAccess	Faety
-SurfaceTension	BuildBoy12
-ForceSTS	Jesus-QC
+| Plugin | Fork of / Original Author |
+|---|---|
+| `CustomDoorAccess` | Faety |
+| `SurfaceTension` | BuildBoy12 |
+| `ForceSTS` | Jesus-QC |
 
 > ⚠️ **Codebase notice:** This is a legacy/archival collection of independently-developed plugins pulled together into one repo. Target EXILED versions, authors, and code quality vary significantly between plugins (see the table below and each plugin's own README for specifics). Some plugins reference features that are not self-contained in this repo (see **Custom Roles — Module System** below). Review each plugin's target EXILED version against your server's installed EXILED build before deploying.
 
