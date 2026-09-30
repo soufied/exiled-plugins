@@ -2,7 +2,7 @@
 
 A custom role module, Infirmier (Doctor) (base role: Scientist), that has a chance to replace an existing Scientist player at round start, spawning with a Defibrillator and other medical loadout items.
 
-> ⚠️ **Requires the `CustomRolesModuleSystem` core plugin.** This module registers itself against `CoreModule<TConfig, TTranslation>` / `CustomRoleModuleSystem` classes from the `CustomRolesModuleSystem` core framework, which is not included in this archive. It will not compile or load standalone — see `CustomRoles-ModuleSystem/README.md` for details. Priority `2` determines its order relative to the others when the core loads them.
+> ⚠️ **Requires the `CustomRolesModuleSystem` core plugin.** This module registers itself against `CoreModule<TConfig, TTranslation>` / `CustomRoleModuleSystem` classes from the `CustomRolesModuleSystem` core framework, which is not included in this archive. It will not compile or load standalone — see [`CRMS README.md`](https://github.com/soufied/exiled-plugins/tree/main/CustomRoles-ModuleSystem) for details. Priority `2` determines its order relative to the others when the core loads them.
 
 ## Features
 - On module enable, registers a `Doctor` custom role (`CustomRoleModuleSystem`) with the core framework and unregisters it on disable.

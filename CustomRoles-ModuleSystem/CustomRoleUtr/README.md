@@ -2,7 +2,7 @@
 
 A custom role module, UTR (base role: Tutorial by default), that has a chance to replace an existing player at round start, is immune to SCP-173 and SCP-096 (treated as already "turned"/seen), has permanently zeroed stamina, and cannot enter the pocket dimension.
 
-> ⚠️ **Requires the `CustomRolesModuleSystem` core plugin.** This module registers itself against `CoreModule<TConfig, TTranslation>` / `CustomRoleModuleSystem` classes from the `CustomRolesModuleSystem` core framework, which is not included in this archive. It will not compile or load standalone — see `CustomRoles-ModuleSystem/README.md` for details. Priority `7` determines its order relative to the others when the core loads them (the highest numeric priority of the six, and the only one to also install its own Harmony patches).
+> ⚠️ **Requires the `CustomRolesModuleSystem` core plugin.** This module registers itself against `CoreModule<TConfig, TTranslation>` / `CustomRoleModuleSystem` classes from the `CustomRolesModuleSystem` core framework, which is not included in this archive. It will not compile or load standalone — see [`CRMS README.md`](https://github.com/soufied/exiled-plugins/tree/main/CustomRoles-ModuleSystem) for details. Priority `7` determines its order relative to the others when the core loads them (the highest numeric priority of the six, and the only one to also install its own Harmony patches).
 
 ## Features
 - On module enable, patches the game via its own Harmony instance (`soufi.utr.role`) in addition to registering the `Utr` custom role (`CustomRoleModuleSystem`) with the core framework; both the Harmony patches and the role registration are cleanly undone on disable.

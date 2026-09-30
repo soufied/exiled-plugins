@@ -2,7 +2,7 @@
 
 A custom role module, Garde Superviseur (Guard Supervisor) (base role: Facility Guard), that has a chance to replace an existing Facility Guard player at round start with an upgraded Foundation Forces loadout.
 
-> ⚠️ **Requires the `CustomRolesModuleSystem` core plugin.** This module registers itself against `CoreModule<TConfig, TTranslation>` / `CustomRoleModuleSystem` classes from the `CustomRolesModuleSystem` core framework, which is not included in this archive. It will not compile or load standalone — see `CustomRoles-ModuleSystem/README.md` for details. Priority `3` determines its order relative to the others when the core loads them.
+> ⚠️ **Requires the `CustomRolesModuleSystem` core plugin.** This module registers itself against `CoreModule<TConfig, TTranslation>` / `CustomRoleModuleSystem` classes from the `CustomRolesModuleSystem` core framework, which is not included in this archive. It will not compile or load standalone — see [`CRMS README.md`](https://github.com/soufied/exiled-plugins/tree/main/CustomRoles-ModuleSystem) for details. Priority `3` determines its order relative to the others when the core loads them.
 
 ## Features
 - On module enable, registers a `GuardSupervisor` custom role (`CustomRoleModuleSystem`) with the core framework and unregisters it on disable.

@@ -2,7 +2,7 @@
 
 A custom role module, Concierge (Janitor) (base role: Class-D), that has a chance to replace an existing Class-D player at round start with a minimal janitorial loadout.
 
-> ⚠️ **Requires the `CustomRolesModuleSystem` core plugin.** This module registers itself against `CoreModule<TConfig, TTranslation>` / `CustomRoleModuleSystem` classes from the `CustomRolesModuleSystem` core framework, which is not included in this archive. It will not compile or load standalone — see `CustomRoles-ModuleSystem/README.md` for details. Priority `1` (highest load priority among the six modules) determines its order relative to the others when the core loads them.
+> ⚠️ **Requires the `CustomRolesModuleSystem` core plugin.** This module registers itself against `CoreModule<TConfig, TTranslation>` / `CustomRoleModuleSystem` classes from the `CustomRolesModuleSystem` core framework, which is not included in this archive. It will not compile or load standalone — see [`CRMS README.md`](https://github.com/soufied/exiled-plugins/tree/main/CustomRoles-ModuleSystem) for details. Priority `1` (highest load priority among the six modules) determines its order relative to the others when the core loads them.
 >
 > ⚠️ **Config/name mismatch:** `TeammatesToThisRole.TeammatesCustomRoles` lists `"Dr Maynard"`, `"Agent Skinner"`, and `"Captain of Chaos"` — none of these match the `CustomName` of any custom role module present in this archive (Director, Doctor, Guard Supervisor, SCP-225-FR, UTR). These entries appear to reference custom roles from outside this collection.
 
