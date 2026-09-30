@@ -42,7 +42,7 @@ Self-contained custom roles/items, each its own EXILED plugin (no shared depende
 
 ### Custom Roles — Module System
 
-Six "role modules" written against an internal **`CustomRolesModuleSystem`** core (classes such as `CoreModule<TConfig, TTranslation>` and `CustomRoleModuleSystem`). **The core framework project is not included in this archive** — these modules will not compile or load on their own; they must be paired with their host/core plugin.
+Six "role modules" written against an internal ['CustomRolesModuleSystem'](https://github.com/soufied/exiled-plugins/tree/main/CustomRoles-ModuleSystem) core (classes such as `CoreModule<TConfig, TTranslation>` and `CustomRoleModuleSystem`). **The core framework project is not included in this archive** — these modules will not compile or load on their own; they must be paired with their host/core plugin.
 
 | Module Name | Folder / Link | Description / What it Adds | Base Role | Priority |
 |---|---|---|---|---|
