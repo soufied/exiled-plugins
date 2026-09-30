@@ -1,6 +1,6 @@
 # SCP:SL EXILED Plugin Collection
 
-A monorepo of custom [EXILED](https://github.com/ExMod-Team/EXILED) plugins for **SCP: Secret Laboratory** dedicated servers. The collection covers moderation/admin-abuse prevention, round-flow automation, custom doors/keycards, custom roles, and several standalone gameplay tweaks. The vast majority of plugins in this repo are originally authored by `soufi`. Three plugins are forks maintained by `soufi` of other developers' original standalone plugins (see below); all others — including every plugin in the Custom Roles Standalone and Custom Roles Module System sections — are original `soufi` works.
+A monorepo of custom [EXILED](https://github.com/ExMod-Team/EXILED) plugins for **SCP: Secret Laboratory** dedicated servers. The collection covers moderation/admin-abuse prevention, round-flow automation, custom doors/keycards, custom roles, and several standalone gameplay tweaks. The vast majority of plugins in this repo are originally authored by [soufi](https://github.com/soufied/). Three plugins are forks maintained by [soufi](https://github.com/soufied/) of other developers' original standalone plugins (see below); all others — including every plugin in the Custom Roles Standalone and Custom Roles Module System sections — are original [soufi](https://github.com/soufied/) works.
 
 | Plugin | Fork of / Original Author |
 |---|---|
